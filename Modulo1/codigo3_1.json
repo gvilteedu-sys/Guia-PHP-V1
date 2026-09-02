@@ -1,0 +1,19 @@
+{
+"name": "cms/core",
+"description": "CMS Profesional con arquitectura MVC en PHP 8.2",
+"type": "project",
+"license": "MIT",
+"autoload": {
+"psr-4": {
+"App\\": "app/"
+}
+},
+"require": {
+"php": ">=8.2",
+"vlucas/phpdotenv": "^5.5"
+},
+"config": {
+"optimize-autoloader": true,
+"sort-packages": true
+}
+}
